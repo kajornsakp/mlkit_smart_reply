@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		1A27B4EA225B076D003915DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27B4E8225B076D003915DC /* LaunchScreen.storyboard */; };
 		1A27B4F5225B076D003915DC /* firebaseNLPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27B4F4225B076D003915DC /* firebaseNLPTests.swift */; };
 		1A27B500225B076D003915DC /* firebaseNLPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27B4FF225B076D003915DC /* firebaseNLPUITests.swift */; };
+		1A27B50E225B08B2003915DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A27B50D225B08B2003915DC /* GoogleService-Info.plist */; };
+		50828DD981A24D418AA92F10 /* Pods_firebaseNLP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7D2C62D91E59A508A19D90 /* Pods_firebaseNLP.framework */; };
+		9F925658FCB087F66122A891 /* Pods_firebaseNLPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FBACB0A1F2601F15BFADE3 /* Pods_firebaseNLPUITests.framework */; };
+		F89434C29A5F676691BA4319 /* Pods_firebaseNLPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA95AA9E278320025E44497D /* Pods_firebaseNLPTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142BB9651D13EED0DE977E7C /* Pods-firebaseNLPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseNLPUITests.debug.xcconfig"; path = "Target Support Files/Pods-firebaseNLPUITests/Pods-firebaseNLPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1A27B4DC225B076B003915DC /* firebaseNLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseNLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A27B4DF225B076B003915DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A27B4E1225B076B003915DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		1A27B4FB225B076D003915DC /* firebaseNLPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebaseNLPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A27B4FF225B076D003915DC /* firebaseNLPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseNLPUITests.swift; sourceTree = "<group>"; };
 		1A27B501225B076D003915DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A27B50D225B08B2003915DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E262E63F6657602D950E8C7 /* Pods-firebaseNLPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseNLPUITests.release.xcconfig"; path = "Target Support Files/Pods-firebaseNLPUITests/Pods-firebaseNLPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52E8ADEA04989438469EB582 /* Pods-firebaseNLPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseNLPTests.release.xcconfig"; path = "Target Support Files/Pods-firebaseNLPTests/Pods-firebaseNLPTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B7D2C62D91E59A508A19D90 /* Pods_firebaseNLP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseNLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAB48BA040DD5F565A67F39 /* Pods-firebaseNLP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseNLP.debug.xcconfig"; path = "Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP.debug.xcconfig"; sourceTree = "<group>"; };
+		9D260BEFA7BC894F0781AC0B /* Pods-firebaseNLPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseNLPTests.debug.xcconfig"; path = "Target Support Files/Pods-firebaseNLPTests/Pods-firebaseNLPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8FBACB0A1F2601F15BFADE3 /* Pods_firebaseNLPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseNLPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3780A37ADF9223293F170E0 /* Pods-firebaseNLP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseNLP.release.xcconfig"; path = "Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP.release.xcconfig"; sourceTree = "<group>"; };
+		FA95AA9E278320025E44497D /* Pods_firebaseNLPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseNLPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50828DD981A24D418AA92F10 /* Pods_firebaseNLP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89434C29A5F676691BA4319 /* Pods_firebaseNLPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F925658FCB087F66122A891 /* Pods_firebaseNLPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				1A27B4F3225B076D003915DC /* firebaseNLPTests */,
 				1A27B4FE225B076D003915DC /* firebaseNLPUITests */,
 				1A27B4DD225B076B003915DC /* Products */,
+				D954CA45DDB3B22B32BC7677 /* Pods */,
+				4291C59EEAB94933B5BED1C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		1A27B4DE225B076B003915DC /* firebaseNLP */ = {
 			isa = PBXGroup;
 			children = (
+				1A27B50D225B08B2003915DC /* GoogleService-Info.plist */,
 				1A27B4DF225B076B003915DC /* AppDelegate.swift */,
 				1A27B4E1225B076B003915DC /* ViewController.swift */,
 				1A27B4E3225B076B003915DC /* Main.storyboard */,
@@ -125,6 +145,29 @@
 			path = firebaseNLPUITests;
 			sourceTree = "<group>";
 		};
+		4291C59EEAB94933B5BED1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D2C62D91E59A508A19D90 /* Pods_firebaseNLP.framework */,
+				FA95AA9E278320025E44497D /* Pods_firebaseNLPTests.framework */,
+				B8FBACB0A1F2601F15BFADE3 /* Pods_firebaseNLPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D954CA45DDB3B22B32BC7677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CAB48BA040DD5F565A67F39 /* Pods-firebaseNLP.debug.xcconfig */,
+				F3780A37ADF9223293F170E0 /* Pods-firebaseNLP.release.xcconfig */,
+				9D260BEFA7BC894F0781AC0B /* Pods-firebaseNLPTests.debug.xcconfig */,
+				52E8ADEA04989438469EB582 /* Pods-firebaseNLPTests.release.xcconfig */,
+				142BB9651D13EED0DE977E7C /* Pods-firebaseNLPUITests.debug.xcconfig */,
+				3E262E63F6657602D950E8C7 /* Pods-firebaseNLPUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A27B504225B076D003915DC /* Build configuration list for PBXNativeTarget "firebaseNLP" */;
 			buildPhases = (
+				712F2B7346C4E95A59E1DB94 /* [CP] Check Pods Manifest.lock */,
 				1A27B4D8225B076B003915DC /* Sources */,
 				1A27B4D9225B076B003915DC /* Frameworks */,
 				1A27B4DA225B076B003915DC /* Resources */,
+				7468BE5278331EB5BD1D01C4 /* [CP] Embed Pods Frameworks */,
+				01869B240F5CD7B4F3F283B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A27B507225B076D003915DC /* Build configuration list for PBXNativeTarget "firebaseNLPTests" */;
 			buildPhases = (
+				74E49AF2941D7EDA1DFB17E3 /* [CP] Check Pods Manifest.lock */,
 				1A27B4EC225B076D003915DC /* Sources */,
 				1A27B4ED225B076D003915DC /* Frameworks */,
 				1A27B4EE225B076D003915DC /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A27B50A225B076D003915DC /* Build configuration list for PBXNativeTarget "firebaseNLPUITests" */;
 			buildPhases = (
+				453D6F1A236A8D25920F2683 /* [CP] Check Pods Manifest.lock */,
 				1A27B4F7225B076D003915DC /* Sources */,
 				1A27B4F8225B076D003915DC /* Frameworks */,
 				1A27B4F9225B076D003915DC /* Resources */,
@@ -230,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A27B4EA225B076D003915DC /* LaunchScreen.storyboard in Resources */,
+				1A27B50E225B08B2003915DC /* GoogleService-Info.plist in Resources */,
 				1A27B4E7225B076D003915DC /* Assets.xcassets in Resources */,
 				1A27B4E5225B076B003915DC /* Main.storyboard in Resources */,
 			);
@@ -250,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01869B240F5CD7B4F3F283B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		453D6F1A236A8D25920F2683 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseNLPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712F2B7346C4E95A59E1DB94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseNLP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7468BE5278331EB5BD1D01C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebaseNLP/Pods-firebaseNLP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E49AF2941D7EDA1DFB17E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebaseNLPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A27B4D8225B076B003915DC /* Sources */ = {
@@ -430,6 +582,7 @@
 		};
 		1A27B505225B076D003915DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAB48BA040DD5F565A67F39 /* Pods-firebaseNLP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +601,7 @@
 		};
 		1A27B506225B076D003915DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3780A37ADF9223293F170E0 /* Pods-firebaseNLP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +620,7 @@
 		};
 		1A27B508225B076D003915DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D260BEFA7BC894F0781AC0B /* Pods-firebaseNLPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +642,7 @@
 		};
 		1A27B509225B076D003915DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E8ADEA04989438469EB582 /* Pods-firebaseNLPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +664,7 @@
 		};
 		1A27B50B225B076D003915DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142BB9651D13EED0DE977E7C /* Pods-firebaseNLPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +685,7 @@
 		};
 		1A27B50C225B076D003915DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E262E63F6657602D950E8C7 /* Pods-firebaseNLPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
